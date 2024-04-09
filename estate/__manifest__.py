@@ -6,6 +6,8 @@
     'description': """
     Real estate with odoo tutorials
     """,
+    'depends': ['base'],
     'data': [
+        'security/ir.model.access.csv'
     ]
 }
