@@ -10,6 +10,7 @@
                     <div class="oe_title">
                         <h1>
                             <field name="name"/>
+                            <field name="property_type_id"/>
                         </h1>
                     </div>
                     <group>
