@@ -112,7 +112,7 @@ class EstateProperty(models.Model):
     def _onchange_garden(self):
         if self.garden:
             self.garden_area = 10
-            self.garden_orientation = "N"
+            self.garden_orientation = "north"
         else:
             self.garden_area = 0
             self.garden_orientation = False
